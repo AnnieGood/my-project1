@@ -1,0 +1,239 @@
+
+body {
+
+     margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+    
+     #main {
+     background-image: url("../img/1.png");
+     background-size: 1920px 100%;
+     background-position: center;
+     }
+     #main-container {
+     max-width: 1170px;
+    margin: 0 auto;
+     }
+    #main-header {
+     display: flex;
+     align-items: center;
+     padding-top: 43px;
+    }
+    
+     #main-header-logo span {
+    font-size: 18px;
+    color: #FCFCFC;
+     margin-left: 10px;
+     }
+     #main-header-menu {
+     margin-left: 264px;
+    
+     }
+     #main-header-menu a.menu-item {
+     font-size: 16px;
+     font-family: 'Courier New', Courier, monospace;
+     color: #FCFCFC;
+     margin-right: 30px;
+     padding: 5px 10px;
+     text-decoration: none;
+     }
+     #main-header-menu a.menu-item:hover {
+     border-bottom: 2px solid;
+    }
+     #main-content {
+     margin-top: 180px;
+     max-width: 740px;
+     }
+     #main-title {
+     font-size: 96px;
+   color: #FCFCFC;
+     line-height: 100px;
+    
+     }
+     .button {
+     background-color: #FCFCFC;
+     width: 324px;
+     height: 58px;
+    font-size: 18px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif ;
+   color: #1B1D11;
+ 
+    }
+    .button:hover {
+        background-color: #1B1D11;
+        color: #FCFCFC;
+
+    }
+     #main-action {
+   margin-top: 54px;
+    margin-bottom: 250px;
+    
+     }
+     .title {
+   font-size: 64px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: #1B1D11;
+   }
+   #about {
+     margin-top: 160px;
+     margin-bottom: 126px;
+    
+     }
+     #about-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+ flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    #about-container .about-item {
+    margin-top: 48px;
+     max-width: 560px;
+    
+     }
+    #about-title {
+        font-size: 64px;
+        line-height: 100px;
+     }
+   #about-container .about-item .about-text {
+     font-size: 16px;
+     color: #1B1D11;
+    line-height: 20px;
+   margin-top: 45px;
+    
+   
+   }
+     #about-container .about-item .about-item-image {
+    margin-bottom: 150px;
+     }
+    
+    #services {
+     margin-bottom: 100px;
+    }
+    #services-container {
+ max-width: 1170px;
+ margin: 0 auto;
+    }
+    #services-container-title {
+     margin-bottom: 10px;
+     margin-top: 12px;
+
+    }
+    #service-items {
+   display: flex;
+     flex-wrap: wrap;
+    
+    }
+    #service-items .service-item {
+     width: 1000px;
+     height: 70px;
+     display: flex;
+  justify-content: center;
+    align-items: normal;
+     flex-direction: column;
+    }
+    #service-items .service-item .service-item-text {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1B1D11;
+    line-height: 20px;
+   text-align: left ;
+ margin-top: 30px;
+    margin-left: 180px;
+  
+    }
+    #products {
+   margin-bottom: 100px;
+    }
+    #products-container {
+    max-width: 1170px;
+   margin: 0 auto;
+  
+    }
+    #products-title {
+    margin-bottom: 60px;
+  margin-top: 120px;
+  text-align: center;
+    }
+    #images {
+    margin-left: 180px;
+        }
+   #products-container-button {
+    margin-left: 80px;
+   }
+
+   
+    
+ #reserve {
+   background-image: url("../img/7.png");
+ background-size: 1920px 100% ;
+background-position: center;
+padding: 132px
+ }
+#reserve-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+#reserve-title {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #FCFCFC;
+    
+}
+#reserve-form {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#reserve-form  input {
+     border-width: 1px;
+     border-color: #1B1D11;
+     border-style: solid;
+     background-color: #FCFCFC;
+     width: 268px;
+     height: 48px;
+     padding: 28px;
+     box-sizing: border-box;
+     margin-right: 10px;
+    
+}
+#footer {
+    background: #1B1D11;
+}
+#footer-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+
+}
+#footer-logo span {
+    font-size: 18px;
+    color: #FCFCFC;
+     margin-left: 10px;
+     }
+#footer-menu {
+margin-left: 264px;
+    
+}
+
+    
+ #footer-menu a.menu-item {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FCFCFC;
+    margin-right: 30px;
+    padding: 5px 10px;
+    text-decoration: none;
+    }
+    #footer-menu a.menu-item:hover {
+    border-bottom: 2px solid;
+   }
+   #footer-text {
+    color: #BDB0B0;
+    text-align: center;
+   
+   }
